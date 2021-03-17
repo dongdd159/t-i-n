@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8 />
+    <title>JS Bin</title>
+</head>
+
+<body>
+<script>
+    let search = prompt("nhập từ")
+    let tiengviet = ["bộ pin","nguy hiểm","lo lắng"]
+    let english=["battery","detrimental","concern"]
+    let result
+    for (let i=0;i<tiengviet.length;i++){
+        if (search==tiengviet[i]){
+            result=english[i]
+            break;
+        }
+    }
+    alert(result)
+</script>
+</body>
+</html>
